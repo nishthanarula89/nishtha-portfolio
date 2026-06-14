@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio of Nishtha Narula</title>
 </head>
-<header>
     
     <h1 style="text-align:center; margin-bottom: 5px;"> Nishtha Narula</h1>
     <p style="text-align: center; font-size: 14px;margin:3px 0  ;">Electronics and Computer Engineering | 2nd year | Graduation year : 2028 </p>
     <p style="text-align: center;font-size: 14px;margin: 3px 0;">Thapar Institute Of Engineering And Technology</p>
 </header>
-<h2 style="margin: 2px;text-decoration: underline; "> About Me</h2>
+<nav style="text-align: center;margin: 10px 0;">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#achieve">Achievements</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+<h2 style="margin: 2px;text-decoration: underline;"id= "about"> About Me</h2>
  ENC student | Aspiring Full Stack Developer</b>
  <p style="font-size: 14px;margin:3px 0"> A second year ENC student at Thapar Institute of Engineering and Technology,who enjoys building real world projects and have worked on several projects like AI powered system and a face recognition based attendance fraud detector.</p>
  <table border="1" width="100%">
@@ -32,7 +38,7 @@
             <p></p>
         </td>
         <td>
-            <h3>Projects</h3>
+            <h3 id="projects">Projects</h3>
             <p style="font-size: 13px;margin: 3px 0"><b>Panchkarama AI System</b> | <i> AI / Product Developments</i>
                 <ul>
                     <li> Built for Smart India Hackathon</li>
@@ -57,7 +63,7 @@
         </td>
 
         <td>
-            <h3>Skills & Tech Stack</h3>
+            <h3 id="skills">Skills & Tech Stack</h3>
             <ul>
                 <li><b>Languages</b>
                     <ul>
@@ -97,7 +103,7 @@
 
      <table border="1" width="100%">
         <td>
-    <h3>Achievements</h3>
+    <h3 id="achieve">Achievements</h3>
     <ul>
         <li><b>Smart India Hackathon</b>
             <ul>
@@ -121,8 +127,21 @@
     </ul>
 </td>
      </table>
-     <footer style="text-align: center;margin-top: 20px;">
-            contact : nnarula_be24@thapar.edu<br>
-     </footer>
+<h2 id="contact" style="text-decoration: underline;" id="contact">Any Suggestions</h2>
+     <form>
+<label for="name">Name:</label><br>
+<input type="text"id="name" name="name"><br><br>
+
+<label for="email">Email: </label><br>
+<input type="email" id="email" name="Email"><br><br>
+
+<label for="message">Message</label><br>
+<textarea id="message" name="message" rows="4"></textarea><br><br>
+
+<button type="submit">Submit></button>
+
+     </form>
+     <footer></footer>
+
 </body>
 </html>
