@@ -251,19 +251,6 @@ footer {
     border-top: 1px solid #DDD0BE;
 }
 
-/* ANIMATIONS */
-@keyframes fadeInDown {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
 
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
 
-@keyframes pulse {
-    0% { box-shadow: 0 0 10px rgba(184, 147, 74, 0.4); }
-    50% { box-shadow: 0 0 30px rgba(184, 147, 74, 0.7); }
-    100% { box-shadow: 0 0 10px rgba(184, 147, 74, 0.4); }
-}
+
